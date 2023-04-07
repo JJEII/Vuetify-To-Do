@@ -1,6 +1,6 @@
 <template>
     <v-list
-      class="py-0"
+      class="py-0 ma-0"
       flat
     >
         <draggable

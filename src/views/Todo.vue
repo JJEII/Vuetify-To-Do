@@ -1,5 +1,5 @@
 <template>
-  <div class="todo">
+  <div class="todo pa-0 ma-0">
 
     <list-tasks
       v-if="$store.state.tasks.length"
@@ -29,3 +29,9 @@
     },
   }
 </script>
+
+<style>
+.v-application ul, .v-application ol {
+    padding-left: 0px;
+}
+</style>
